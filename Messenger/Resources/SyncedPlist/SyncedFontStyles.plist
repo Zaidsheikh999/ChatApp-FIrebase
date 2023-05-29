@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>xxxxSmall</key>
+	<integer>10</integer>
+	<key>xxxSmall</key>
+	<integer>11</integer>
+	<key>xxSmall1</key>
+	<integer>12</integer>
+	<key>xxSmall</key>
+	<real>13</real>
+	<key>xSmall1</key>
+	<integer>14</integer>
+	<key>xSmall</key>
+	<integer>15</integer>
+	<key>small</key>
+	<integer>17</integer>
+	<key>small2</key>
+	<integer>16</integer>
+	<key>small1</key>
+	<integer>18</integer>
+	<key>medium</key>
+	<integer>20</integer>
+	<key>large0</key>
+	<integer>21</integer>
+	<key>large</key>
+	<integer>22</integer>
+	<key>large1</key>
+	<integer>24</integer>
+	<key>xLarge1</key>
+	<integer>25</integer>
+	<key>large2</key>
+	<integer>26</integer>
+	<key>large3</key>
+	<integer>28</integer>
+	<key>large4</key>
+	<integer>30</integer>
+	<key>xLarge</key>
+	<integer>35</integer>
+	<key>xxLarge</key>
+	<integer>40</integer>
+	<key>xxxLarge</key>
+	<integer>45</integer>
+	<key>big</key>
+	<integer>50</integer>
+	<key>xBig</key>
+	<integer>55</integer>
+	<key>xxBig</key>
+	<integer>60</integer>
+</dict>
+</plist>

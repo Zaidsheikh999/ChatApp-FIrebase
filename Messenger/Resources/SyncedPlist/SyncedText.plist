@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mentalMinutes</key>
+	<string>Pauseitive</string>
+	<key>continue</key>
+	<string>Continue</string>
+	<key>login</key>
+	<string>Login</string>
+	<key>home</key>
+	<string>Home</string>
+	<key>connectWithFacebook</key>
+	<string>Continue with Facebook</string>
+	<key>alert</key>
+	<string>Alert</string>
+	<key>connectWithGoogle</key>
+	<string>Continue with Google</string>
+	<key>connectWithApple</key>
+	<string>Continue with Apple</string>
+	<key>getStarted</key>
+	<string>Get Started</string>
+	<key>progress</key>
+	<string>Progress</string>
+	<key>viewAll</key>
+	<string>VIEW ALL</string>
+	<key>forgotPassword?</key>
+	<string>Forgot password?</string>
+	<key>leaderboard</key>
+	<string>Leaderboard</string>
+	<key>achievements</key>
+	<string>Achievements</string>
+	<key>like</key>
+	<string>Like</string>
+	<key>settings</key>
+	<string>Settings</string>
+	<key>ok</key>
+	<string>OK</string>
+	<key>connect</key>
+	<string>Connect</string>
+	<key>CONNECT</key>
+	<string>CONNECT</string>
+	<key>headingSignInToYourAccount</key>
+	<string>Sign in to your
+account</string>
+	<key>seeMore</key>
+	<string>See More</string>
+	<key>projects</key>
+	<string>Projects</string>
+	<key>loginText</key>
+	<string>Sign in to your account</string>
+	<key>continueWithLinkedIn</key>
+	<string>Continue with linkedin</string>
+	<key>loginWithGoogle</key>
+	<string>Login With Google</string>
+	<key>tasks</key>
+	<string>Tasks</string>
+	<key>notifications</key>
+	<string>Notifications</string>
+	<key>signIn</key>
+	<string>Sign In</string>
+	<key>notice</key>
+	<string>Notice</string>
+	<key>noticeBoard</key>
+	<string>Notice Board</string>
+	<key>tickets</key>
+	<string>Tickets</string>
+	<key>all</key>
+	<string>All</string>
+	<key>open</key>
+	<string>Open</string>
+	<key>pending</key>
+	<string>Pending</string>
+	<key>resolved</key>
+	<string>Resolved</string>
+	<key>closed</key>
+	<string>Closed</string>
+	<key>details</key>
+	<string>Details</string>
+	<key>expenses</key>
+	<string>Expenses</string>
+	<key>discussion</key>
+	<string>Discussion</string>
+	<key>detail</key>
+	<string>Detail</string>
+	<key>ticket</key>
+	<string>Ticket</string>
+	<key>uploadYourAttachments</key>
+	<string>Upload your Attachment here.</string>
+	<key>createTicket</key>
+	<string>Create Ticket</string>
+	<key>expense</key>
+	<string>Expense</string>
+	<key>createExpense</key>
+	<string>Create Expense</string>
+	<key>submit</key>
+	<string>Submit</string>
+	<key>notAttended</key>
+	<string>Not Attended</string>
+	<key>attended</key>
+	<string>Attended</string>
+	<key>feedback</key>
+	<string>Feedback</string>
+	<key>reject</key>
+	<string>Reject</string>
+	<key>accept</key>
+	<string>Accept</string>
+	<key>upcoming</key>
+	<string>Upcoming</string>
+	<key>today</key>
+	<string>Today</string>
+	<key>done</key>
+	<string>Done</string>
+	<key>logout</key>
+	<string>Logout</string>
+	<key>cancel</key>
+	<string>Cancel</string>
+	<key>checkout</key>
+	<string>Check Out</string>
+	<key>checkin</key>
+	<string>Check In</string>
+	<key>estimates</key>
+	<string>Estimates</string>
+	<key>leaves</key>
+	<string>Leaves</string>
+	<key>leave</key>
+	<string>Leave</string>
+	<key>createEstimate</key>
+	<string>Create Estimate</string>
+	<key>newItem</key>
+	<string>New Item</string>
+	<key>save</key>
+	<string>Save</string>
+	<key>quantity</key>
+	<string>Quantity</string>
+	<key>calendar</key>
+	<string>Calendar</string>
+	<key>createEvent</key>
+	<string>Create Event</string>
+	<key>remove</key>
+	<string>Remove</string>
+	<key>viewTimeLog</key>
+	<string>View Time Log</string>
+	<key>attendance</key>
+	<string>Attendance</string>
+	<key>timeLog</key>
+	<string>Time Log</string>
+	<key>next</key>
+	<string>Next</string>
+	<key>finishReview</key>
+	<string>Finish Review</string>
+	<key>comment</key>
+	<string>Comment</string>
+	<key>selectCountry</key>
+	<string>Select Country</string>
+	<key>search</key>
+	<string>Search</string>
+	<key>yes</key>
+	<string>Yes</string>
+	<key>resume</key>
+	<string>Resume</string>
+	<key>message</key>
+	<string>Message</string>
+	<key>noLastSessionFound</key>
+	<string>No Last Session Found</string>
+	<key>tryAgain</key>
+	<string>Try Again</string>
+	<key>fileUploadErrorMessage</key>
+	<string>Error while uploading</string>
+	<key>privacyPolicy</key>
+	<string>Privacy Policy</string>
+	<key>contactSupport</key>
+	<string>Contact Support</string>
+	<key>appUser</key>
+	<string>Pauseitive User</string>
+</dict>
+</plist>

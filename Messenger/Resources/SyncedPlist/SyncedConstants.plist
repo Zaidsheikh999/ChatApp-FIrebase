@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fontDefault</key>
+	<string>SFUIText-Regular</string>
+	<key>fontItalic</key>
+	<string>SFUIText-RegularItalic</string>
+	<key>fontLight</key>
+	<string>SFUIText-Light</string>
+	<key>fontLightItalic</key>
+	<string>SFUIText-LightItalic</string>
+	<key>fontMedium</key>
+	<string>SFUIText-Medium</string>
+	<key>fontMediumItalic</key>
+	<string>SFUIText-MediumItalic</string>
+	<key>fontSemiBold</key>
+	<string>SFUIText-Semibold</string>
+	<key>fontSemiItalic</key>
+	<string>SFUIText-SemiboldItalic</string>
+	<key>fontBold</key>
+	<string>SFUIText-Bold</string>
+	<key>fontBoldItalic</key>
+	<string>SFUIText-BoldItalic</string>
+	<key>fontHeavy</key>
+	<string>SFUIText-Heavy</string>
+	<key>fontHeavyItalic</key>
+	<string>SFUIText-HeavyItalic</string>
+	<key>fontHeading</key>
+	<string>HolidayFreeRegular</string>
+	<key>fontTextMedium</key>
+	<string>AvenirNext-Medium</string>
+	<key>fontTextDemiBold</key>
+	<string>AvenirNext-DemiBold</string>
+	<key>databaseFileName</key>
+	<string></string>
+</dict>
+</plist>

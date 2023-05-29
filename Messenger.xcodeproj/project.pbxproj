@@ -22,6 +22,30 @@
 		3CB3694C2A24991200FFE6D2 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3694B2A24991200FFE6D2 /* VideoPlayerViewController.swift */; };
 		3CB3694E2A24993700FFE6D2 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3694D2A24993700FFE6D2 /* NewConversationViewController.swift */; };
 		3CB369502A2499B100FFE6D2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3694F2A2499B100FFE6D2 /* ProfileViewController.swift */; };
+		3CB369532A249E0B00FFE6D2 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB369522A249E0B00FFE6D2 /* UserPreferences.swift */; };
+		3CB369552A249E2500FFE6D2 /* ConstantEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB369542A249E2400FFE6D2 /* ConstantEnums.swift */; };
+		3CB369572A24AD5700FFE6D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB369562A24AD5700FFE6D2 /* Extensions.swift */; };
+		3CB369592A24B56B00FFE6D2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB369582A24B56B00FFE6D2 /* Utility.swift */; };
+		3CB369702A24B61E00FFE6D2 /* SyncedColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3695B2A24B61D00FFE6D2 /* SyncedColors.plist */; };
+		3CB369712A24B61E00FFE6D2 /* SyncedConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3695C2A24B61D00FFE6D2 /* SyncedConstants.plist */; };
+		3CB369722A24B61E00FFE6D2 /* SyncedFontStyles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3695D2A24B61D00FFE6D2 /* SyncedFontStyles.plist */; };
+		3CB369732A24B61E00FFE6D2 /* SyncedText.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3695E2A24B61D00FFE6D2 /* SyncedText.plist */; };
+		3CB369742A24B61E00FFE6D2 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369602A24B61E00FFE6D2 /* SFUIText-Medium.ttf */; };
+		3CB369752A24B61E00FFE6D2 /* HolidayFree.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369612A24B61E00FFE6D2 /* HolidayFree.otf */; };
+		3CB369762A24B61E00FFE6D2 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369622A24B61E00FFE6D2 /* SFUIText-Regular.ttf */; };
+		3CB369772A24B61E00FFE6D2 /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369632A24B61E00FFE6D2 /* SFUIText-Heavy.ttf */; };
+		3CB369782A24B61E00FFE6D2 /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369642A24B61E00FFE6D2 /* SFUIText-Bold.ttf */; };
+		3CB369792A24B61E00FFE6D2 /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369652A24B61E00FFE6D2 /* SFUIText-Light.ttf */; };
+		3CB3697A2A24B61E00FFE6D2 /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369662A24B61E00FFE6D2 /* SFUIText-Semibold.ttf */; };
+		3CB3697B2A24B61E00FFE6D2 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369672A24B61E00FFE6D2 /* AvenirLTStd-Black.otf */; };
+		3CB3697C2A24B61E00FFE6D2 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369682A24B61E00FFE6D2 /* AvenirLTStd-Book.otf */; };
+		3CB3697D2A24B61E00FFE6D2 /* SFUIText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB369692A24B61E00FFE6D2 /* SFUIText-LightItalic.ttf */; };
+		3CB3697E2A24B61E00FFE6D2 /* SFUIText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3696A2A24B61E00FFE6D2 /* SFUIText-BoldItalic.ttf */; };
+		3CB3697F2A24B61E00FFE6D2 /* SFUIText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3696B2A24B61E00FFE6D2 /* SFUIText-MediumItalic.ttf */; };
+		3CB369802A24B61E00FFE6D2 /* SFUIText-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3696C2A24B61E00FFE6D2 /* SFUIText-SemiboldItalic.ttf */; };
+		3CB369812A24B61E00FFE6D2 /* SFUIText-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3696D2A24B61E00FFE6D2 /* SFUIText-HeavyItalic.ttf */; };
+		3CB369822A24B61E00FFE6D2 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3696E2A24B61E00FFE6D2 /* AvenirLTStd-Roman.otf */; };
+		3CB369832A24B61E00FFE6D2 /* SFUIText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB3696F2A24B61E00FFE6D2 /* SFUIText-RegularItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +85,30 @@
 		3CB3694B2A24991200FFE6D2 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		3CB3694D2A24993700FFE6D2 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		3CB3694F2A2499B100FFE6D2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3CB369522A249E0B00FFE6D2 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		3CB369542A249E2400FFE6D2 /* ConstantEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantEnums.swift; sourceTree = "<group>"; };
+		3CB369562A24AD5700FFE6D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CB369582A24B56B00FFE6D2 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		3CB3695B2A24B61D00FFE6D2 /* SyncedColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SyncedColors.plist; sourceTree = "<group>"; };
+		3CB3695C2A24B61D00FFE6D2 /* SyncedConstants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SyncedConstants.plist; sourceTree = "<group>"; };
+		3CB3695D2A24B61D00FFE6D2 /* SyncedFontStyles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SyncedFontStyles.plist; sourceTree = "<group>"; };
+		3CB3695E2A24B61D00FFE6D2 /* SyncedText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SyncedText.plist; sourceTree = "<group>"; };
+		3CB369602A24B61E00FFE6D2 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		3CB369612A24B61E00FFE6D2 /* HolidayFree.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HolidayFree.otf; sourceTree = "<group>"; };
+		3CB369622A24B61E00FFE6D2 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		3CB369632A24B61E00FFE6D2 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		3CB369642A24B61E00FFE6D2 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		3CB369652A24B61E00FFE6D2 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		3CB369662A24B61E00FFE6D2 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		3CB369672A24B61E00FFE6D2 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
+		3CB369682A24B61E00FFE6D2 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		3CB369692A24B61E00FFE6D2 /* SFUIText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-LightItalic.ttf"; sourceTree = "<group>"; };
+		3CB3696A2A24B61E00FFE6D2 /* SFUIText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3CB3696B2A24B61E00FFE6D2 /* SFUIText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3CB3696C2A24B61E00FFE6D2 /* SFUIText-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		3CB3696D2A24B61E00FFE6D2 /* SFUIText-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		3CB3696E2A24B61E00FFE6D2 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		3CB3696F2A24B61E00FFE6D2 /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +159,9 @@
 		3CB3690F2A24904900FFE6D2 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				3CB369102A24904900FFE6D2 /* AppDelegate.swift */,
+				3CB369122A24904900FFE6D2 /* SceneDelegate.swift */,
+				3CB369512A249DE300FFE6D2 /* Helpers N Utility */,
 				3CB369432A24951100FFE6D2 /* Resources */,
 				3CB369422A24950900FFE6D2 /* Views */,
 				3CB369402A2494F200FFE6D2 /* Controllers */,
@@ -140,9 +191,8 @@
 		3CB369402A2494F200FFE6D2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3CB369842A24C98E00FFE6D2 /* Login */,
 				3CB369142A24904900FFE6D2 /* ConversationViewController.swift */,
-				3CB369452A2498C600FFE6D2 /* LoginViewController.swift */,
-				3CB369472A2498D500FFE6D2 /* RegisterViewController.swift */,
 				3CB369492A2498F900FFE6D2 /* PhotoViewerViewController.swift */,
 				3CB3694B2A24991200FFE6D2 /* VideoPlayerViewController.swift */,
 				3CB3694D2A24993700FFE6D2 /* NewConversationViewController.swift */,
@@ -169,8 +219,8 @@
 		3CB369432A24951100FFE6D2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3CB369102A24904900FFE6D2 /* AppDelegate.swift */,
-				3CB369122A24904900FFE6D2 /* SceneDelegate.swift */,
+				3CB3695F2A24B61E00FFE6D2 /* Fonts */,
+				3CB3695A2A24B61D00FFE6D2 /* SyncedPlist */,
 				3CB369192A24905100FFE6D2 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -183,6 +233,60 @@
 				3CB3691B2A24905100FFE6D2 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		3CB369512A249DE300FFE6D2 /* Helpers N Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3CB369522A249E0B00FFE6D2 /* UserPreferences.swift */,
+				3CB369542A249E2400FFE6D2 /* ConstantEnums.swift */,
+				3CB369562A24AD5700FFE6D2 /* Extensions.swift */,
+				3CB369582A24B56B00FFE6D2 /* Utility.swift */,
+			);
+			path = "Helpers N Utility";
+			sourceTree = "<group>";
+		};
+		3CB3695A2A24B61D00FFE6D2 /* SyncedPlist */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3695B2A24B61D00FFE6D2 /* SyncedColors.plist */,
+				3CB3695C2A24B61D00FFE6D2 /* SyncedConstants.plist */,
+				3CB3695D2A24B61D00FFE6D2 /* SyncedFontStyles.plist */,
+				3CB3695E2A24B61D00FFE6D2 /* SyncedText.plist */,
+			);
+			path = SyncedPlist;
+			sourceTree = "<group>";
+		};
+		3CB3695F2A24B61E00FFE6D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3CB369602A24B61E00FFE6D2 /* SFUIText-Medium.ttf */,
+				3CB369612A24B61E00FFE6D2 /* HolidayFree.otf */,
+				3CB369622A24B61E00FFE6D2 /* SFUIText-Regular.ttf */,
+				3CB369632A24B61E00FFE6D2 /* SFUIText-Heavy.ttf */,
+				3CB369642A24B61E00FFE6D2 /* SFUIText-Bold.ttf */,
+				3CB369652A24B61E00FFE6D2 /* SFUIText-Light.ttf */,
+				3CB369662A24B61E00FFE6D2 /* SFUIText-Semibold.ttf */,
+				3CB369672A24B61E00FFE6D2 /* AvenirLTStd-Black.otf */,
+				3CB369682A24B61E00FFE6D2 /* AvenirLTStd-Book.otf */,
+				3CB369692A24B61E00FFE6D2 /* SFUIText-LightItalic.ttf */,
+				3CB3696A2A24B61E00FFE6D2 /* SFUIText-BoldItalic.ttf */,
+				3CB3696B2A24B61E00FFE6D2 /* SFUIText-MediumItalic.ttf */,
+				3CB3696C2A24B61E00FFE6D2 /* SFUIText-SemiboldItalic.ttf */,
+				3CB3696D2A24B61E00FFE6D2 /* SFUIText-HeavyItalic.ttf */,
+				3CB3696E2A24B61E00FFE6D2 /* AvenirLTStd-Roman.otf */,
+				3CB3696F2A24B61E00FFE6D2 /* SFUIText-RegularItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3CB369842A24C98E00FFE6D2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3CB369452A2498C600FFE6D2 /* LoginViewController.swift */,
+				3CB369472A2498D500FFE6D2 /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +393,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB369752A24B61E00FFE6D2 /* HolidayFree.otf in Resources */,
+				3CB369772A24B61E00FFE6D2 /* SFUIText-Heavy.ttf in Resources */,
+				3CB369762A24B61E00FFE6D2 /* SFUIText-Regular.ttf in Resources */,
+				3CB3697C2A24B61E00FFE6D2 /* AvenirLTStd-Book.otf in Resources */,
+				3CB369702A24B61E00FFE6D2 /* SyncedColors.plist in Resources */,
+				3CB369742A24B61E00FFE6D2 /* SFUIText-Medium.ttf in Resources */,
+				3CB3697A2A24B61E00FFE6D2 /* SFUIText-Semibold.ttf in Resources */,
+				3CB3697E2A24B61E00FFE6D2 /* SFUIText-BoldItalic.ttf in Resources */,
+				3CB369792A24B61E00FFE6D2 /* SFUIText-Light.ttf in Resources */,
 				3CB3691D2A24905100FFE6D2 /* LaunchScreen.storyboard in Resources */,
+				3CB3697F2A24B61E00FFE6D2 /* SFUIText-MediumItalic.ttf in Resources */,
 				3CB3691A2A24905100FFE6D2 /* Assets.xcassets in Resources */,
+				3CB369832A24B61E00FFE6D2 /* SFUIText-RegularItalic.ttf in Resources */,
+				3CB369812A24B61E00FFE6D2 /* SFUIText-HeavyItalic.ttf in Resources */,
+				3CB369722A24B61E00FFE6D2 /* SyncedFontStyles.plist in Resources */,
+				3CB369822A24B61E00FFE6D2 /* AvenirLTStd-Roman.otf in Resources */,
+				3CB369802A24B61E00FFE6D2 /* SFUIText-SemiboldItalic.ttf in Resources */,
+				3CB369712A24B61E00FFE6D2 /* SyncedConstants.plist in Resources */,
+				3CB3697D2A24B61E00FFE6D2 /* SFUIText-LightItalic.ttf in Resources */,
+				3CB369732A24B61E00FFE6D2 /* SyncedText.plist in Resources */,
 				3CB369182A24904900FFE6D2 /* Main.storyboard in Resources */,
+				3CB3697B2A24B61E00FFE6D2 /* AvenirLTStd-Black.otf in Resources */,
+				3CB369782A24B61E00FFE6D2 /* SFUIText-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,10 +445,14 @@
 				3CB3694E2A24993700FFE6D2 /* NewConversationViewController.swift in Sources */,
 				3CB369152A24904900FFE6D2 /* ConversationViewController.swift in Sources */,
 				3CB3694C2A24991200FFE6D2 /* VideoPlayerViewController.swift in Sources */,
+				3CB369532A249E0B00FFE6D2 /* UserPreferences.swift in Sources */,
 				3CB369112A24904900FFE6D2 /* AppDelegate.swift in Sources */,
+				3CB369592A24B56B00FFE6D2 /* Utility.swift in Sources */,
+				3CB369572A24AD5700FFE6D2 /* Extensions.swift in Sources */,
 				3CB369502A2499B100FFE6D2 /* ProfileViewController.swift in Sources */,
 				3CB369132A24904900FFE6D2 /* SceneDelegate.swift in Sources */,
 				3CB3694A2A2498F900FFE6D2 /* PhotoViewerViewController.swift in Sources */,
+				3CB369552A249E2500FFE6D2 /* ConstantEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
