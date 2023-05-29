@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterViewController: UIViewController {
     
@@ -17,7 +18,7 @@ class RegisterViewController: UIViewController {
     
     private let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(systemName: "person")
+        imageView.image = UIImage(systemName: "person.circle")
         imageView.tintColor = .gray
         imageView.contentMode = .scaleAspectFit
         imageView.clipsToBounds = true
@@ -106,7 +107,6 @@ class RegisterViewController: UIViewController {
         
         emailField.delegate = self
         passwordField.delegate = self
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register", style: .done, target: self, action: #selector(didTapRegister))
         
         registerButton.addTarget(self, action: #selector(registerButtonTapped), for: .touchUpInside)
         //Add subviews
@@ -163,12 +163,6 @@ class RegisterViewController: UIViewController {
                                  height: 52)
     }
     
-    @objc private func didTapRegister(){
-        let vc = RegisterViewController()
-        vc.title = "Create Account"
-        navigationController?.pushViewController(vc, animated: true)
-    }
-    
     // MARK: - Register method
     
     @objc private func registerButtonTapped(){
@@ -189,6 +183,20 @@ class RegisterViewController: UIViewController {
               password.count >= 6 else {
             userLoginError()
             return
+        }
+        // Firebase authentication
+        
+        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password) { [weak self] authResult, error in
+            guard let strongSelf = self else {return}
+            
+            guard let result = authResult, error == nil else {
+                print("Error creating user")
+                return
+            }
+            
+            let user = result.user
+            print("Created user",user)
+            strongSelf.navigationController?.popViewController(animated: true)
         }
     }
     func userLoginError(){

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ConversationViewController: UIViewController {
 
@@ -18,6 +19,16 @@ class ConversationViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
+        self.isValidate()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        
+    }
+    
+    private func isValidate(){
         let isLoggedIn = UserPreferences.isLoggedIn
         
         if !isLoggedIn {
@@ -27,12 +38,6 @@ class ConversationViewController: UIViewController {
             nav.navigationBar.tintColor = .black
             present(nav, animated: false)
         }
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        
     }
 
 
