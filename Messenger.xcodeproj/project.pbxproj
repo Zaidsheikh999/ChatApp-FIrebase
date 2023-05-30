@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA779CF2A25D8D800DBD59D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA779CE2A25D8D800DBD59D /* DataBaseManager.swift */; };
 		3CABAA662A24EB7D005F51B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CABAA652A24EB7D005F51B8 /* GoogleService-Info.plist */; };
 		3CB369112A24904900FFE6D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB369102A24904900FFE6D2 /* AppDelegate.swift */; };
 		3CB369132A24904900FFE6D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB369122A24904900FFE6D2 /* SceneDelegate.swift */; };
@@ -71,6 +72,7 @@
 
 /* Begin PBXFileReference section */
 		2F7CC6EA97D2DE5E14B3B81C /* Pods-MessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerTests.debug.xcconfig"; path = "Target Support Files/Pods-MessengerTests/Pods-MessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA779CE2A25D8D800DBD59D /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		3CABAA652A24EB7D005F51B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3CB3690D2A24904900FFE6D2 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB369102A24904900FFE6D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				3CB369542A249E2400FFE6D2 /* ConstantEnums.swift */,
 				3CB369562A24AD5700FFE6D2 /* Extensions.swift */,
 				3CB369582A24B56B00FFE6D2 /* Utility.swift */,
+				3CA779CE2A25D8D800DBD59D /* DataBaseManager.swift */,
 			);
 			path = "Helpers N Utility";
 			sourceTree = "<group>";
@@ -596,6 +599,7 @@
 				3CB369482A2498D500FFE6D2 /* RegisterViewController.swift in Sources */,
 				3CB3694E2A24993700FFE6D2 /* NewConversationViewController.swift in Sources */,
 				3CB369152A24904900FFE6D2 /* ConversationViewController.swift in Sources */,
+				3CA779CF2A25D8D800DBD59D /* DataBaseManager.swift in Sources */,
 				3CB3694C2A24991200FFE6D2 /* VideoPlayerViewController.swift in Sources */,
 				3CB369532A249E0B00FFE6D2 /* UserPreferences.swift in Sources */,
 				3CB369112A24904900FFE6D2 /* AppDelegate.swift in Sources */,

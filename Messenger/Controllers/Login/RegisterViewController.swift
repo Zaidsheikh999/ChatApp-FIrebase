@@ -181,26 +181,37 @@ class RegisterViewController: UIViewController {
               !firstName.isEmpty,
               !lastName.isEmpty,
               password.count >= 6 else {
-            userLoginError()
+            userLoginError(message: "Please enter all inforamtion to create a new user")
             return
         }
         // Firebase authentication
         
-        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password) { [weak self] authResult, error in
+        DataBaseManager.shared.isUserExist(with: email, completion: { [weak self] exists in
+            
             guard let strongSelf = self else {return}
             
-            guard let result = authResult, error == nil else {
-                print("Error creating user")
+            guard !exists else {
+                strongSelf.userLoginError(message: "User with this email address alredy exists")
                 return
             }
+            FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+                
+                
+                guard authResult != nil, error == nil else {
+                    print("Error creating user")
+                    return
+                }
+                
+                DataBaseManager.shared.insertUser(with: chatAppUser(firstName: firstName, lastName: lastName, email: email))
+                
+                strongSelf.navigationController?.popViewController(animated: true)
+            }
             
-            let user = result.user
-            print("Created user",user)
-            strongSelf.navigationController?.popViewController(animated: true)
-        }
+        })
+        
     }
-    func userLoginError(){
-        Utility.showAlert(self, title: "Woops", message: "Enter all information to create a new account.", action: "Dismiss", actionStyle: .cancel)
+    func userLoginError(message: String){
+        Utility.showAlert(self, title: "Woops", message: message, action: "Dismiss", actionStyle: .cancel)
     }
     
     // MARK: - change profile picture mathod
